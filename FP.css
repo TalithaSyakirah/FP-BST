@@ -1,0 +1,232 @@
+h1 {
+    color: white; 
+}
+
+h2 {
+    color: #3f3f3f; 
+    text-align: center; 
+}
+
+header{
+    background-color: #116466; 
+    color: white; 
+    padding: 0px; 
+    text-align: center;
+}
+
+nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li { 
+    display: inline-block; 
+    margin-right: 0px; 
+}
+
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-right: 0px; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    box-shadow: 5px 5px 5px 10px rgba(0,0,0,.4); 
+    height: auto; 
+    line-height: 1.6; 
+}
+
+main {
+    background-color:#D3D3D3; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+main h2 {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+main img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+article {
+    border: solid 5px #666; 
+    margin: 10px; 
+    margin-bottom: 40px; 
+    padding: 20px;
+    flex: 1; 
+}
+
+figcaption {
+    color: #666; 
+    text-align: center;
+}
+
+footer {
+    background-color: #116466;
+    color: white; 
+    padding: 5px; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer p {
+    margin-right: 20px;
+}
+
+footer h1 {
+    margin-left: 20px;
+}
+
+footer nav ul li {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#Projects {
+    color: #3f3f3f;
+}
+
+.container {
+	max-width: 992px;
+	margin: 0;
+	padding: 0 10px;
+	height: 70%;
+}
+
+.atas {
+	height: 60vh;
+    width: 100%;
+	background-position: 0;
+	background-image: url('gedung.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.atas::before {
+	content: "";
+	display: block;
+	height: 60vh;
+	width: 100%;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.81) 100%);
+	position: absolute;
+	z-index: 2;
+}
+
+.tulisan {
+	position: relative;
+    z-index: 3;
+    display: flex;
+    height: 100%;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.atas .container {
+	padding: 50px 100px;
+}
+
+.tulisan h1 {
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+.Slogan {
+	margin-top: 0;
+	color: white;
+}
+
+.singkat {
+    margin-top : 0;
+    max-width: 600px;
+    color: white;
+}
+
+.bagsejarah {
+	height: 75vh;
+    max-width: 100%;
+	background-color: #666;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bagsejarah .container2 {
+    padding: 30px 100px;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .text {
+    color: aliceblue;
+    float: right;
+    width: 60%;
+    margin-right: 5px;
+  }
+  
+  .images {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 20%;
+  }
+
+  @media (max-width: 767px) {
+    .text, .images {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    header {
+        padding: 20px; /* Padding lebih besar */
+    }
+
+    nav ul li {
+        margin-right: 30px; /* Jarak antar item lebih besar */
+    }
+
+    main {
+        padding: 40px; /* Padding lebih besar */
+    }
+
+    article {
+        margin-bottom: 60px; /* Margin bawah lebih besar */
+        padding: 40px; /* Padding lebih besar */
+    }
+}
+
+/* Responsif Desain untuk layar lebih besar */
+@media (min-width: 1024px) {
+    nav ul li {
+        margin-right: 40px; /* Jarak antar item lebih besar */
+    }
+
+    main {
+        padding: 60px; /* Padding lebih besar */
+    }
+
+    article {
+        margin-bottom: 80px; /* Margin bawah lebih besar */
+        padding: 60px; /* Padding lebih besar */
+    }
+}
+
